@@ -29,8 +29,8 @@ A Raspberry Pi–based smart mirror with system monitoring and motion-activated 
 
 ```bash
 # Clone repo
-git clone https://github.com/yourusername/MagicMirror-Portfolio.git
-cd MagicMirror-Portfolio/MagicMirror
+git clone https://github.com/reltub/Interactive-Smart-Mirror.git
+cd Interactive-Smart-Mirror/MagicMirror
 
 # Install dependencies
 npm install --engine-strict=false
