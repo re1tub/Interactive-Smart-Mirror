@@ -44,35 +44,6 @@ A Raspberry Pi–based smart mirror with system monitoring and motion-activated 
 - PIR sensor detects motion via GPIO pins. The mirror wakes on motion, dims after inactivity, and turns off after extended inactivity.
 - Modules dynamically update and reflect system state visually with color-coded thresholds.
 
-### Code snippets
-
-## Custom System Health Module (node_helper.js):
-
-getSystemData: function () {
-  exec("cat /sys/class/thermal/thermal_zone0/temp", (error, tempOut) => {
-    const cpuTemp = (tempOut / 1000).toFixed(1) + " °C";
-    exec("top -bn1 | grep 'Cpu(s)'", (error, cpuOut) => {
-      const idleMatch = cpuOut.match(/(\d+\.\d+)\s*id/);
-      const idle = idleMatch ? parseFloat(idleMatch[1]) : 0;
-      const cpuUsage = (100 - idle).toFixed(1) + " %";
-      this.sendSocketNotification("SYSTEM_DATA", { cpuTemp, cpuUsage });
-    });
-  });
-}
-
-## Frontend Display (MMM-SystemHealth.js):
-
-getDom: function () {
-  const wrapper = document.createElement("div");
-  wrapper.innerHTML = `
-    <div class="${this.getCpuTempClass()}">CPU Temp: ${this.systemData.cpuTemp}</div>
-    <div class="${this.getCpuUsageClass()}">CPU Usage: ${this.systemData.cpuUsage}</div>
-    <div>Uptime: ${this.systemData.uptime}</div>
-  `;
-  return wrapper;
-}
-
-
 ## Installation
 
 ```bash
