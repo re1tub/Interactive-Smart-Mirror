@@ -24,7 +24,7 @@ A Raspberry Pi–based smart mirror with system monitoring and motion-activated 
 
 ![System Health Module](IMG_9284.jpeg)
 ![PIR Motion Sensor Wiring](IMG_9283.gif)
-
+![System Health](IMG_9277(1).gif)
 ## Installation
 
 ```bash
