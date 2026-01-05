@@ -23,7 +23,7 @@ A Raspberry Pi–based smart mirror with system monitoring and motion-activated 
 ## Screenshots
 
 ![System Health Module](IMG_9284.jpeg)
-![PIR Motion Sensor Wiring](docs/pir-sensor-diagram.png)
+![PIR Motion Sensor Wiring](IMG_9283.gif)
 
 ## Installation
 
