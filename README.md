@@ -31,17 +31,18 @@ A Raspberry Pi–based smart mirror with system monitoring and motion-activated 
 - PIR motion sensor
 - Raspberry Pi 4(Or compatible)
 
-## Technologies Used
--Node.js
--MagicMirror² framework
--Java Script(custom modules)
--Python(Optional GPIO)
--Linux System Commands
+## Tools & Technologies
+- **Node.js** – Main runtime for MagicMirror and modules
+- **MagicMirror² framework** – Core display framework
+- **JavaScript** – Custom modules
+- **Python (optional)** – For GPIO motion control
+- **Linux commands** – To get system health
+- **Raspberry Pi GPIO** – Motion detection hardware
 
 ## How it works
--The system health module gathers CPU temperature, CPU usage, and uptime using Linux commands.
--PIR sensor detects motion via GPIO pins. The mirror wakes on motion, dims after inactivity, and turns off after extended inactivity.
--Modules dynamically update and reflect system state visually with color-coded thresholds.
+- The system health module gathers CPU temperature, CPU usage, and uptime using Linux commands.
+- PIR sensor detects motion via GPIO pins. The mirror wakes on motion, dims after inactivity, and turns off after extended inactivity.
+- Modules dynamically update and reflect system state visually with color-coded thresholds.
 
 ## Installation
 
