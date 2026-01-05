@@ -15,7 +15,6 @@ jspm_modules
 .npm
 .node_repl_history
 node_modules/
-config/config.js
 *.log
 .env
 .cache/
