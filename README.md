@@ -21,8 +21,9 @@ A Raspberry Pi–based smart mirror with system monitoring and motion-activated 
 - Fullscreen, kiosk-style display
 
 
-## Screenshots
+## Footage
 
+![Mirror Motion Sensor](IMG_9283.gif)
 ![PIR Motion Sensor Wiring](IMG_9283.gif)
 ![System Health](SystemHealth.gif)
 
