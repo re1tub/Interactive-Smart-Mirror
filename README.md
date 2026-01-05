@@ -45,6 +45,19 @@ A Raspberry Pi–based smart mirror that displays real-time system information, 
 
 ---
 
+### Optional Enhancements
+
+- Motion-triggered dimming with an idle state
+
+- Visual charts or color-coded thresholds for CPU usage and temperature
+
+- Custom system monitoring widgets
+
+### Notes
+
+- Fully customizable and modular using the MagicMirror² framework.
+
+- This prjoect showcases embedded systems, hardware integration, and JavaScript development skills.
 ## Code Snippets
 
 ### System Health Module (`node_helper.js`)
