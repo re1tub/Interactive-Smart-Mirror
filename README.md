@@ -38,7 +38,7 @@ A Raspberry Pi–based smart mirror that displays real-time system information, 
 
 ---
 
-### Screenshots
+### Media
 
 ![Magic Mirror Overview](IMG_9283.gif)  ![System Health Module](SystemHealth.gif)  
 
