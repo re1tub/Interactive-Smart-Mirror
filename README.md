@@ -1,7 +1,8 @@
-# Interactive Smart Mirror
+### Interactive Smart Mirror
 
 A Raspberry Pi–based smart mirror that displays real-time system information, time, weather, and compliments. The mirror also integrates a PIR motion sensor to wake, dim, or turn off based on user presence, creating an interactive and energy-efficient display.
 
+---
 
 ### Technologies & Languages
 
